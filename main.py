@@ -23,3 +23,9 @@ class MainHandler(webapp2.RequestHandler):
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
 ], debug=True)
+
+def main():
+    app.run()
+
+if __name__=='__main__':
+    main()
