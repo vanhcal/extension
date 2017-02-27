@@ -1,11 +1,11 @@
- runtime: php55
+runtime: php55
  api_version: 1
  threadsafe: true
 
  handlers:
  - url: /
-   static_files: www/testing.html
-   upload: www/testing.html
+   static_files: www/index.html
+   upload: www/index.html
 
  - url: /(.*)
    static_files: www/\1
