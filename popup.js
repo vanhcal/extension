@@ -28,9 +28,7 @@ function getCurrentTabTitle(callback) {
 document.addEventListener('DOMContentLoaded', function() {
     title = getCurrentTabTitle(function(title) {
     console.log('TITLLEEEEEEEEE' + title) 
-    });
-
-    console.log('TITLLEEEEEEEEE' + title) 
+      
         url = getCurrentTabUrl(function(url) {
         console.log('URLLLLLLL' + url)
 
@@ -47,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.log(arguments);
                 alert(" Can't do because: " + error);
               }
-          
+            });
         });
     });
 });
