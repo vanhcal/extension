@@ -27,10 +27,10 @@ function getCurrentTabTitle(callback) {
 
 document.addEventListener('DOMContentLoaded', function() {
     title = getCurrentTabTitle(function(title) {
-    console.log('TITLLEEEEEEEEE' + title) 
+    console.log('TITLE is ' + title) 
       
         url = getCurrentTabUrl(function(url) {
-        console.log('URLLLLLLL' + url)
+        console.log('URL is ' + url)
 
             $.ajax({
               type: "POST",
